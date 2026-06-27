@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GameplayShaderVariants
+  m_Shaders:
+  - first: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 47779954fe6ca524db436afe2b7a2870, type: 3}
+    second:
+      variants:
+      - keywords: _EMISSION _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+  - first: {fileID: 4800000, guid: c1d1f4698fc791744a084298c2b16ac7, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 8
+      - keywords: TCP2_MATCAP TCP2_MATCAP_MASK TCP2_RIM_LIGHTING TCP2_RIM_LIGHTING_LIGHTMASK TCP2_SHADOW_LIGHT_COLOR _MAIN_LIGHT_SHADOWS _NORMALMAP _SHADOWS_SOFT
+        passType: 13
+      - keywords: TCP2_MATCAP TCP2_MATCAP_MASK TCP2_RIM_LIGHTING_LIGHTMASK TCP2_SHADOW_LIGHT_COLOR TCP2_SPECULAR _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT
+        passType: 13
+      - keywords: TCP2_MATCAP TCP2_RIM_LIGHTING_LIGHTMASK _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 956e667e5167f52499c9db18bd80e18b, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 8
+      - keywords: EVALUATE_SH_VERTEX _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT
+        passType: 13
+  - first: {fileID: 4800000, guid: ef579e6e07e458b4bb1de5d2051f775b, type: 3}
+    second:
+      variants:
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 0
+  - first: {fileID: 4800000, guid: f68315b4501ceb14ca1f10cccb768962, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 8
+      - keywords: EVALUATE_SH_VERTEX
+        passType: 13
+      - keywords: EVALUATE_SH_VERTEX _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT
+        passType: 13
+  - first: {fileID: 4800000, guid: f0378af642046194d842a26b6debb9ef, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 13
