@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Grapes_1x1
+  m_Name: Plum_1x1 1
   m_Shader: {fileID: 4800000, guid: d285f71eff85468ca46bd321c5e0c303, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -33,7 +33,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 0ee03d15172629e42849dc05457387c4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 02f44a1b1c17b7644918ccd66c359e05, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -49,7 +49,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
-        m_Texture: {fileID: 2800000, guid: 518925edcf2e8d049a447c98c10a689f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4a660229cb9852845ae962a3f488e8d4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:

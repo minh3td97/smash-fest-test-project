@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Table 1
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: d285f71eff85468ca46bd321c5e0c303, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -106,7 +106,7 @@ Material:
     - _OutlinePixelSizeType: 1
     - _OutlineTextureLOD: 5
     - _OutlineTextureType: 0
-    - _OutlineWidth: 2
+    - _OutlineWidth: 0
     - _Parallax: 0.02
     - _RampBands: 4
     - _RampBandsSmoothing: 0.1
@@ -127,8 +127,8 @@ Material:
     - _SpecularHighlights: 1
     - _SpecularMapType: 0
     - _SpecularRoughness: 0.431
-    - _SpecularToonSize: 0.005
-    - _SpecularToonSmoothness: 0.024
+    - _SpecularToonSize: 0.125
+    - _SpecularToonSmoothness: 0.42
     - _SpecularType: 0
     - _SrcBlend: 1
     - _UVSec: 0
@@ -157,5 +157,5 @@ Material:
     - _ReflectionColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _RimColor: {r: 0, g: 0, b: 0, a: 0.5}
     - _SColor: {r: 0.4716981, g: 0.2247241, b: 0.24236515, a: 1}
-    - _SpecularColor: {r: 0.5660378, g: 0.3274312, b: 0.13616945, a: 1}
+    - _SpecularColor: {r: 0.49685526, g: 0.2704474, b: 0.10155843, a: 1}
   m_BuildTextureStacks: []
